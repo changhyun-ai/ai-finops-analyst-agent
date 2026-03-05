@@ -1,7 +1,9 @@
 # AI FinOps Analyst Agent
 
-AI-powered analytics system for analyzing cloud infrastructure usage and cost data.<br>
-This project simulates a FinOps environment where engineers analyze cloud resource consumption across multiple services and regions.<br>
+AI-powered analytics system for analyzing cloud infrastructure usage and cost data.
+
+This project simulates a FinOps environment where engineers analyze cloud resource consumption across multiple services and regions.
+
 The goal of this project is to explore how AI-assisted analytics can support cloud cost monitoring, anomaly detection, and infrastructure usage analysis.
 
 ---
