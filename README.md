@@ -1,11 +1,17 @@
 # AI FinOps Analyst Agent
+
 AI-powered analytics system for analyzing cloud infrastructure usage and cost data.
+
 This project simulates a FinOps environment where engineers analyze cloud resource consumption across multiple services and regions.
+
 The goal of this project is to explore how AI-assisted analytics can support cloud cost monitoring, anomaly detection, and infrastructure usage analysis.
 
 ---
+
 ## Problem Statement
+
 Cloud infrastructure cost data is complex and difficult to analyze manually.
+
 FinOps engineers frequently need to analyze:
 
 - service-level cost distribution  
@@ -14,15 +20,21 @@ FinOps engineers frequently need to analyze:
 - potential cost anomalies  
 
 Manual analysis of these datasets can be time-consuming and error-prone.
+
 This project explores how AI-assisted analytics can help simplify cloud cost analysis and provide insights from infrastructure usage data.
 
 ---
 
 ## Dataset
+
 This project uses a simulated **Google Cloud Platform (GCP) infrastructure usage and cost dataset**.
+
 The dataset contains cloud resource usage metrics, infrastructure utilization data, and associated cost information.
+
 It simulates a real-world FinOps scenario where engineers monitor cloud infrastructure usage and cost across multiple services and regions.
+
 Dataset size:
+
 ```
 1000 records
 ```
@@ -30,6 +42,7 @@ Dataset size:
 ---
 
 ## Dataset Columns
+
 | Column | Description |
 |------|-------------|
 | Resource ID | Unique identifier for each cloud resource |
@@ -51,6 +64,7 @@ Dataset size:
 ---
 
 ## Project Structure
+
 ```text
 ai-finops-analyst-agent
 │
@@ -66,23 +80,29 @@ ai-finops-analyst-agent
 ├── requirements.txt
 └── README.md
 ```
+
 ---
 
 ## Methodology
+
 This project performs several analytical tasks on cloud infrastructure data.
+
 Analysis tasks include:
+
 - Service-level cost distribution analysis  
 - Regional infrastructure usage comparison  
 - CPU utilization analysis  
 - Network traffic usage analysis  
-- Cost anomaly detection
-- 
+- Cost anomaly detection  
+
 The goal is to understand infrastructure usage patterns and identify potential cost issues.
 
 ---
 
 ## Results
+
 Key insights obtained from the dataset analysis include:
+
 - identification of high-cost cloud services  
 - detection of resources with high CPU utilization  
 - analysis of network traffic patterns  
@@ -93,12 +113,16 @@ These findings demonstrate how cloud infrastructure data can be analyzed to supp
 ---
 
 ## Installation
+
 Clone the repository
+
 ```bash
 git clone https://github.com/yourusername/ai-finops-analyst-agent.git
 cd ai-finops-analyst-agent
 ```
+
 Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -106,22 +130,30 @@ pip install -r requirements.txt
 ---
 
 ## Run Application
+
 Run the Streamlit dashboard
+
 ```bash
 streamlit run app/streamlit_app.py
 ```
+
 ---
 
 ## Future Improvements
+
 Potential improvements for this project include:
+
 - integration with real cloud billing APIs  
 - automated anomaly detection using machine learning  
 - interactive dashboard enhancements  
 - natural language query support for cloud cost analysis  
+
 ---
 
 ## Tech Stack
+
 Technologies used in this project:
+
 - Python  
 - Pandas  
 - Streamlit  
