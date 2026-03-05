@@ -66,7 +66,7 @@ Dataset size:
 ## Project Structure
 
 ```text
-ai-finops-analyst-agent
+FINOPS AGENT
 │
 ├── data
 │   └── gcp_final_approved_dataset.csv
