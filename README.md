@@ -1,4 +1,4 @@
-# ai-finops-analyst-agent
+# AI FinOps-Analyst-Agent
 
 ## Overview
 This project builds an AI-powered data analyst that analyzes cloud cost data using natural language queries.
